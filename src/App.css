@@ -13,6 +13,7 @@ nav {
   padding: 20px;
   display: flex;
   flex-direction: column;
+  padding: 20px;
 }
 
 .section--image{
@@ -28,10 +29,27 @@ nav {
 }
 
 .section--p{
+  margin-top: 0;
   font-size: 22px;
 }
 
 body {
-  font-family: roboto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.card {
+  width: 80%;
+  padding: 20px;
+}
+
+.card--star {
+  width: 20px;
+}
+
+.card--image{
+  max-width: 200px;
+}
+
+.card--stats {
+  padding: 10px;
+}
